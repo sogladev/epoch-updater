@@ -1,7 +1,7 @@
 {
   "name": "epoch-updater",
   "productName": "Project Epoch Updater",
-  "version": "1.0.12",
+  "version": "1.1.0",
   "description": "The Game Client Updater for Project Epoch.",
   "main": ".webpack/main",
   "scripts": {
@@ -56,7 +56,9 @@
             "homepage": "https://www.project-epoch.net",
             "bin": "Project Epoch Updater",
             "icon": "./assets/epoch.ico",
-            "categories": ["Game"]
+            "categories": [
+              "Game"
+            ]
           }
         },
         {
@@ -70,7 +72,9 @@
             "homepage": "https://www.project-epoch.net",
             "bin": "Project Epoch Updater",
             "icon": "./assets/epoch.ico",
-            "categories": ["Game"]
+            "categories": [
+              "Game"
+            ]
           }
         }
       ],
