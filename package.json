@@ -92,7 +92,7 @@
           "name": "@electron-forge/publisher-github",
           "config": {
             "repository": {
-              "owner": "Project-Epoch",
+              "owner": "sogladev",
               "name": "epoch-updater"
             },
             "prerelease": false,
