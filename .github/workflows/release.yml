@@ -9,9 +9,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Install Appimage dependencies
-        run: |
-          sudo apt install squashfs-tools
       - name: Build project and create a draft release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
