@@ -1,6 +1,6 @@
 {
   "name": "epoch-updater",
-  "productName": "Project Epoch Updater",
+  "productName": "project-epoch-updater",
   "version": "1.1.0",
   "description": "The Game Client Updater for Project Epoch.",
   "main": ".webpack/main",
@@ -34,10 +34,23 @@
             "name": "ProjectEpochUpdater",
             "authors": "Project Epoch",
             "description": "The Game Client Updater for Project Epoch.",
-            "exe": "Project Epoch Updater.exe",
+            "exe": "project-epoch-updater.exe",
             "setupExe": "epoch-installer.exe",
             "iconUrl": "https://cdn.project-epoch.net/media/updater/epoch.ico",
             "loadingGif": "./assets/loading.gif"
+          }
+        },
+        {
+          "name": "@reforged/maker-appimage",
+          "platforms": [
+            "linux"
+          ],
+          "config": {
+            "options": {
+              "name": "project-epoch-updater",
+              "productName": "Project Epoch Updater",
+              "genericName": "Game Client Updater"
+            }
           }
         },
         {
@@ -60,8 +73,8 @@
             "priority": "optional",
             "maintainer": "Project Epoch",
             "homepage": "https://www.project-epoch.net",
-            "bin": "Project Epoch Updater",
             "icon": "./assets/epoch.ico",
+            "bin": "project-epoch-updater",
             "categories": [
               "Game"
             ]
@@ -79,8 +92,8 @@
             "description": "The Game Client Updater for Project Epoch.",
             "license": "GPL-3.0",
             "homepage": "https://www.project-epoch.net",
-            "bin": "Project Epoch Updater",
             "icon": "./assets/epoch.ico",
+            "bin": "project-epoch-updater",
             "categories": [
               "Game"
             ]
@@ -135,6 +148,7 @@
     "@electron-forge/plugin-webpack": "^7.6.1",
     "@electron-forge/publisher-github": "^7.6.0",
     "@electron/fuses": "^1.8.0",
+    "@reforged/maker-appimage": "^4.0.4",
     "@types/bootstrap": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
